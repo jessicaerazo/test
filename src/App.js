@@ -5,13 +5,12 @@ import IconButton from 'material-ui/IconButton';
 import Menu, { MenuItem } from 'material-ui/Menu';
 import IconMenu from 'material-ui/IconMenu';
 import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
-import './App.css';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import {pinkA200,indigo700,orange700,grey100,cyan700,grey600} from 'material-ui/styles/colors';
+import {pinkA200,indigo700,orange700,cyan700} from 'material-ui/styles/colors';
+import './App.css';
 
 const muiTheme = getMuiTheme({
   palette: {
-    // textColor: indigo700,
     primary1Color: indigo700,
     primary2Color: pinkA200,
   },
